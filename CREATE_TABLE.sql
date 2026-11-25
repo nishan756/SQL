@@ -1,0 +1,14 @@
+USE college_db;
+
+CREATE TABLE students(
+
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+
+    Name VARCHAR(100) NOT NULL,
+
+    Address VARCHAR(200) NOT NULL,
+
+    Phone CHAR(11) NOT NULL UNIQUE,
+
+    Email VARCHAR(100) NOT NULL UNIQUE
+);
