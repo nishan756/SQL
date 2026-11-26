@@ -1,0 +1,1 @@
+SELECT * FROM subjects WHERE subject_code = 28561 AND name = "Database Management System";
